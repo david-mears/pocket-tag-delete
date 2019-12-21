@@ -58,6 +58,7 @@ open .env
 Put in your pocket username and password, e.g., and save the file:
 
 POCKET_USERNAME=my@username.com
+
 POCKET_PASSWORD=secret_password
 
 ## Use
