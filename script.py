@@ -8,8 +8,9 @@ from dotenv import load_dotenv
 load_dotenv()
 driver = webdriver.Firefox()
 
-# Sign in to LinkedIn and navigate to the desired company's personnel
-driver.get('https://app.getpocket.com/tags/hacker-news/all')
+# Sign in to Pocket
+tag = 'hacker-news'
+driver.get('https://app.getpocket.com/tags/' + tag + '/all')
 time.sleep(3)
 username = driver.find_element_by_id('field-1')
 username.send_keys(os.getenv("POCKET_USERNAME"))
