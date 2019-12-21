@@ -71,4 +71,4 @@ To run, you'll have installed, and activated the virtual environment:
 python script.py
 ```
 
-If it errors, try it again.
+If it errors, try it again. Will probably fail for the last few of a tag, which you'll need to do manually.
