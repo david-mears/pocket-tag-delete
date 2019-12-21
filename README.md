@@ -64,7 +64,7 @@ POCKET_PASSWORD=secret_password
 
 ## Use
 
-By default, this script deletes everything tagged 'hacker news'. To change this, just change the variable called `url` in script.py before running it. Pocket turns whitespaces in the tags into hyphens for the purposes of this url.
+By default, this script deletes everything tagged 'hacker news'. To change this, just change the variable called `tag` in script.py before running it (line 12 at time of writing). Pocket turns whitespaces in the tags into hyphens for the purposes of this url.
 
 To run, you'll have installed, and activated the virtual environment:
 ```bash
